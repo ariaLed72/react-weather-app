@@ -48,6 +48,16 @@ export default function Weather() {
           <img src={icon} alt={description} />
         </ul>
       </div>
+      <footer>
+        This app is open-sourced on{" "}
+        <a
+          href="https://github.com/ariaLed72/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }
